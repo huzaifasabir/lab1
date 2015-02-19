@@ -1,0 +1,15 @@
+Lab 1 Report:
+
+
+We had to create a matrix computer which would perform some basic operations like multiply, add and subtract. I did the code in java. The unit tests for this assignment were made using JUnit test cases.  The code takes inputs from file. I used tokenization to break down lines in file which denote the rows and columns of matrices.
+ 
+Basically it tokenizes the each line of file which is one matrix and adds it to a 2D array. When 2d array is complete it is then added to a list of 2d arrays. This list contains matrices which were read from the file and further functions of the program use this list to get matrices and perform computations on them. I have implemented 4 test cases adding 3 matrices, multiplying 2 matrices, multiply two matrices and then add one to result, subtract two matrices. 
+In the functions of the computations, matrices are taken out from the list and then put in  a 2D array. After that add multiply and subtract are performed on it. 
+
+Format of input  from file:
+On each line 
+1 2 3;4 5 6;7 8 9
+Semi colon represents end of row whole line represents on matrix
+Each number represents element of matrix
+Github link:
+https://github.com/huzaifasabir/lab1.git
